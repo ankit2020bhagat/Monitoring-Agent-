@@ -1,0 +1,30 @@
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+pydantic==2.7.4
+pydantic-settings==2.3.4
+
+# Database
+asyncpg==0.29.0
+sqlalchemy[asyncio]==2.0.30
+alembic==1.13.1
+
+# Redis
+redis[asyncio]==5.0.6
+aioredis==2.0.1
+
+# AI / LangChain
+langchain==0.2.6
+langchain-anthropic==0.1.19
+langchain-openai==0.1.14
+langchain-community==0.2.6
+anthropic==0.28.0
+openai==1.35.7
+
+# System monitoring
+psutil==5.9.8
+
+# Utilities
+python-dotenv==1.0.1
+httpx==0.27.0
+structlog==24.2.0
+tenacity==8.3.0
